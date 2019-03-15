@@ -1,2 +1,2 @@
 # RecycleDemo
-![样式](/DemoImage.jpg)
+![样式](https://github.com/CoderJTao/RecycleDemo/blob/master/DemoImage.jpg)
