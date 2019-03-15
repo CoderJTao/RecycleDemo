@@ -141,7 +141,7 @@ public class CustomItemDecoration extends RecyclerView.ItemDecoration {
         canvas.drawRect(left, top, right, bottom, mPaint);
         mPaint.setTextSize(40);
         mPaint.setColor(Color.BLACK);
-        canvas.drawText(heroList.get(position).getIndexTag(), 100, bottom - dividerHeight/3, mPaint);
+        canvas.drawText(hero.getIndexTag(), 100, bottom - dividerHeight/3, mPaint);
 
     }
 }
