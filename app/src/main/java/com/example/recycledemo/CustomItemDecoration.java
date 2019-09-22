@@ -27,6 +27,10 @@ public class CustomItemDecoration extends RecyclerView.ItemDecoration {
     private final Rect mBounds = new Rect();
     private static final int dividerHeight = 80;
 
+    /**
+     * 初始化方法，初始化画笔
+     * @param context
+     */
     public CustomItemDecoration(Context context) {
         mContext = context;
 
@@ -36,6 +40,11 @@ public class CustomItemDecoration extends RecyclerView.ItemDecoration {
         mPaint.setTextAlign(Paint.Align.CENTER);
     }
 
+    /**
+     * 设置数据以判断分组
+     * @param list
+     * @param tagStr
+     */
     public void setDatas(List<Hero> list, String tagStr) {
         this.heroList = list;
         this.tagsStr = tagStr;
